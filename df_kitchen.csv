@@ -1,0 +1,254 @@
+Unnamed: 0,id_kitchen,id_company,kitchen,type,has_covers
+0,1,SONEVA FUSHI,Fresh in the Garden,Outlet,1
+1,2,SONEVA FUSHI,By the Beach,Outlet,1
+2,3,SONEVA FUSHI,Bar(a) Bara,Outlet,1
+3,4,SONEVA FUSHI,Main Kitchen,Canteen,1
+4,5,SONEVA FUSHI,Vegetable Garden,Banquet,1
+5,6,SONEVA FUSHI,Extra Events,Banquet,1
+6,7,SONEVA FUSHI,Staff Bar,Canteen,1
+7,8,SONEVA FUSHI,Cajun City,Canteen,1
+8,9,SONEVA FUSHI,Malafaiy,Canteen,1
+9,11,SONEVA,Fresh in The Garden,Outlet,1
+10,12,SONEVA,By the beach,Outlet,1
+11,13,SONEVA,Malafaiy,Canteen,1
+12,14,SONEVA,Cajun City,Canteen,1
+13,15,SONEVA,Vegetable Garden,Outlet,1
+14,16,SONEVA,Main kitchen,Outlet,1
+15,17,SONEVA,bar(a) bara,Outlet,1
+16,19,Novotel Siam Square ,MK,Outlet,1
+17,20,Novotel Siam Square ,BTB,Outlet,1
+18,21,Novotel Siam Square ,CC,Canteen,1
+19,22,Novotel SS,Kitchen ,Outlet,1
+20,24,Six Senses Laamu,Host Canteen ,Canteen,1
+21,25,Six Senses Laamu,Main Kitchen,Outlet,1
+22,31,Six Senses Laamu,Longitude,Outlet,1
+23,27,Six Senses Laamu,SipSip,Outlet,1
+24,28,Six Senses Laamu,Zen,Outlet,1
+25,29,Six Senses Laamu,Cooking hut,Outlet,1
+26,30,Six Senses Laamu,Leaf,Outlet,1
+27,32,Sampran,Khao Gaeng ,Canteen,1
+28,33,Sampran,Vanda,Outlet,1
+29,34,Sampran,Rim Nam,Outlet,1
+30,35,Sampran,Inn Chan,Outlet,1
+31,36,Sampran,Main Kitchen,Outlet,1
+32,37,Hilton Millenium,Canteen,Canteen,1
+33,38,Hilton Millenium,P2 Kitchens ,Outlet,1
+34,39,Hilton Millenium,Flow,Outlet,1
+35,40,Hilton Millenium,Yuan,Outlet,1
+36,41,Hilton Millenium,Banquet Kitchen ,Banquet,1
+37,42,Hilton Millenium,Prime,Outlet,1
+38,43,Hilton Millenium,The Beach ,Outlet,1
+39,44,Hilton Millenium,Executive lounge,Outlet,1
+40,53,Hilton Millenium,Banquet kitchen,Outlet,1
+41,112,NIYAMA PRIVATE ISLANDS MALDIVES,Commissary,Outlet,1
+42,111,NIYAMA PRIVATE ISLANDS MALDIVES,Nourish,Canteen,1
+43,109,NIYAMA PRIVATE ISLANDS MALDIVES,Blu,Outlet,1
+44,110,NIYAMA PRIVATE ISLANDS MALDIVES,Epicure,Outlet,1
+45,63,Hilton Arcadia Phuket,Sails,Outlet,1
+46,64,Hilton Arcadia Phuket,Buon Appetito ,Outlet,1
+47,65,Hilton Arcadia Phuket,Canteen ,Canteen,1
+48,66,Hilton Arcadia Phuket,Fruit/Veg,Outlet,1
+49,67,Hilton Arcadia Phuket,Pastry ,Outlet,1
+50,68,Hilton Arcadia Phuket,Cold kitchen Ex. chef,Outlet,1
+51,69,Hilton Arcadia Phuket,Butcher,Outlet,1
+52,92,Hoest,Hoest,Outlet,1
+53,91,TheItalian,The Italian ,Outlet,1
+54,90,BoLan,Bo.lan,Outlet,1
+55,84,SodexoLFIB,Maternelle,Outlet,1
+56,83,SodexoLFIB,Cantine Principale,Outlet,1
+57,94,PullmanKingPower,Cuisine Unplugged,Outlet,1
+58,490,APAC Hyatt Taipei TAIGH,Banquet,Outlet,1
+59,116,AtheneeBKK,Rain Tree,Outlet,1
+60,117,AtheneeBKK,Main Kitchen,Outlet,1
+61,417,GetFreshSC,Singha Complex,Outlet,1
+62,415,Manuela,Home,Outlet,1
+63,120,MarriottMarquis,Goji,Outlet,1
+64,121,MarriottMarquis,Main Kitchen,Outlet,1
+65,122,JWMarriottPhuket,Marriott Cafe,Outlet,1
+66,123,JWMarriottPhuket,Pastry Kitchen,Outlet,1
+67,296,ClaraBKK,Clara,Outlet,1
+68,137,JWMarriottBKK,JWCafe,Outlet,1
+69,138,JWMarriottBKK,BBCo,Outlet,1
+70,139,JWMarriottBKK,Commissary,Outlet,0
+71,140,JWMarriottBKK,Pastry,Outlet,0
+72,141,PeninsulaBKK,RC&T,Outlet,1
+73,142,PeninsulaBKK,Main Kitchen,Outlet,1
+74,143,TheAmbassador,AmCafe,Outlet,1
+75,144,TheAmbassador,BakeryButcher,Outlet,1
+76,416,GetFreshPK,Production Kitchen,Outlet,1
+77,153,HolidayInnSilom,Brasserie,Outlet,1
+78,154,HolidayInnSilom,Preparation Kitchen,Outlet,0
+79,155,CourtyardByMarriottBKK,Momo Cafe,Outlet,1
+80,156,CourtyardByMarriottBKK,Ex Lounge,Outlet,1
+81,157,LeMeridienPhuket,Pakarang,Outlet,1
+82,158,LeMeridienPhuket,Main Kitchen,Outlet,0
+83,165,SofitelSukhumvit,Coffee Break,Outlet,1
+84,166,SofitelSukhumvit,Buffet,Outlet,1
+85,167,SofitelSukhumvit,Set Menu,Outlet,1
+86,171,LeMeridienPhuket,Latest Recipe,Outlet,1
+87,194,GrandHyattSingapore,M9_Brunch,Outlet,1
+88,195,GrandHyattSingapore,M9_Chinese,Outlet,1
+89,196,GrandHyattSingapore,M9_DeliSeafood,Outlet,1
+90,197,GrandHyattSingapore,M9_Japanese,Outlet,1
+91,198,GrandHyattSingapore,M9_Pastry,Outlet,1
+92,199,GrandHyattSingapore,M9_Thai,Outlet,1
+93,200,GrandHyattSingapore,M9_Western,Outlet,1
+94,201,GrandHyattSingapore,PetesPlace,Outlet,1
+95,202,GrandHyattSingapore,LPC,Outlet,1
+96,203,HolidayInnChiangMai,River Terrace,Outlet,1
+97,204,HolidayInnChiangMai,Canteen,Outlet,1
+98,205,HolidayInnChiangMai,Main Kitchen,Outlet,0
+99,250,RainTreeBKK,Rain Tree,Outlet,1
+100,251,RainTreeBKK,Production Kitchen,Outlet,1
+101,258,Acksonsay,Home,Outlet,1
+102,259,Sarocha Pakeenuya,Home,Outlet,1
+103,260,Hai Tran,Home,Outlet,1
+104,262,Budiman,Home,Outlet,1
+105,263,Kris Ayu,Home,Outlet,1
+106,264,Kathrin Pape,Home,Outlet,1
+107,267,Phil Mavhiza,Home,Outlet,1
+108,327,Inthira Vang Vieng,Kop Chai Deu Vang Vieng,Outlet,1
+109,269,Marcel Hendrickx,Home,Outlet,1
+110,279,Heng,Home,Outlet,1
+111,280,Sachdev,Home,Outlet,1
+112,281,MaySim,Home,Outlet,1
+113,282,LauraYap,Home,Outlet,1
+114,283,SinNee,Home,Outlet,1
+115,284,GheeChong,Home,Outlet,1
+116,285,Jeremy,Home,Outlet,1
+117,286,Chow,Home,Outlet,1
+118,287,Magdalene,Home,Outlet,1
+119,288,Edie,Home,Outlet,1
+120,289,Roger,Home,Outlet,1
+121,290,Aaron,Home,Outlet,1
+122,291,DonChen,Home,Outlet,1
+123,292,AnvieLin,Home,Outlet,1
+124,293,Derrick,Home,Outlet,1
+125,294,Prakash,Home,Outlet,1
+126,360,Refettorio,Refettorio,Outlet,1
+127,315,Jaime,Jaime,Outlet,1
+128,316,Shalinee,Home,Outlet,1
+129,317,Lois,Home,Outlet,1
+130,318,Giulia,Home,Outlet,1
+131,383,Nassima,Home,Outlet,1
+132,320,Sandra,Home,Outlet,1
+133,322,ChoonLeng,Home,Outlet,1
+134,323,Melike,Home,Outlet,1
+135,324,Ngamnet,Home,Outlet,1
+136,325,Marcus,Home,Outlet,1
+137,326,Adam,Home,Outlet,1
+138,489,APAC Hyatt Taipei TAIGH,Yun Jin,Outlet,1
+139,329,Le Bistro Ban Vat Sene,Le Bistro Ban Vat Sene,Outlet,1
+140,413,FoodWIN,B Im,Outlet,1
+141,332,Utopia Laos,Utopia,Outlet,1
+142,333,Luang Prabang View Hotel,Cafe Bar,Outlet,1
+143,334,Chanthapanya Hotel,Khampreuw,Outlet,1
+144,337,Phasomsee,Phasom See,Outlet,1
+145,338,Raw Cafe,Raw Cafe,Outlet,1
+146,412,FoodWIN,B Bew,Outlet,1
+147,347,Belmond La Residence Phou Vao,Mountain Terrace,Outlet,1
+148,348,Belmond La Residence Phou Vao,Sep Lai,Outlet,1
+149,349,Local Dive,MV Kepsub,Outlet,1
+150,353,SiamatSiam,Cold Kitchen,Outlet,0
+151,354,SiamatSiam,Extra Kitchen,Outlet,1
+152,355,Furama Vietnam,Staff Canteen,Outlet,1
+153,509,MCB Caravelle,La Caravelle,Outlet,1
+154,357,Tam Coc,Citronella,Outlet,1
+155,358,Krabi Resort,The Boat,Outlet,1
+156,359,Aesop Bangkok,Aesop,Outlet,1
+157,361,Marion,Home,Outlet,1
+158,381,GetFresh1,Exchange Tower,Outlet,1
+159,363,StraitsKitchen,High Tea,Outlet,1
+160,364,StraitsKitchen,Indian,Outlet,1
+161,411,FoodWIN,A2P,Outlet,1
+162,366,StraitsKitchen,Chinese,Outlet,1
+163,367,StraitsKitchen,Commissary,Outlet,1
+164,368,StraitsKitchen,Daily,Outlet,1
+165,369,StraitsKitchen,Pastry,Outlet,1
+166,370,StraitsKitchen,Malay,Outlet,1
+167,380,GetFresh1,Mercury Ville,Outlet,1
+168,371,Mezza9,Western Grill,Outlet,1
+169,372,Mezza9,Western Daily,Outlet,1
+170,373,Mezza9,Japanese,Outlet,1
+171,374,Mezza9,Thai,Outlet,1
+172,375,Mezza9,Chinese,Outlet,1
+173,376,Mezza9,Pastry,Outlet,1
+174,377,Mezza9,LPC,Outlet,1
+175,379,Mezza9,Brunch,Outlet,1
+176,382,Enoteca,Enoteca,Outlet,1
+177,384,Antje,Home,Outlet,1
+178,385,Virginia,Home,Outlet,1
+179,386,Nadim,Home,Outlet,1
+180,387,Paleesa,Home,Outlet,1
+181,388,Elisa,Home,Outlet,1
+182,389,Marco,Home,Outlet,1
+183,390,Agata,Home,Outlet,1
+184,391,Erika,Home,Outlet,1
+185,393,Nino,Home,Outlet,1
+186,394,Josephine,Home,Outlet,1
+187,395,Jespher,Home,Outlet,1
+188,396,Philippos,Home,Outlet,1
+189,397,Yuki,Home,Outlet,1
+190,409,FoodWIN,A1P,Outlet,1
+191,410,FoodWIN,A2L,Outlet,1
+192,408,FoodWIN,A1L,Outlet,1
+193,488,APAC Hyatt Taipei TAIGH,Cafe,Outlet,1
+194,487,APAC Hyatt Seoul SELRS,Sowol Ro,Outlet,1
+195,484,NTU Mar22,NTU,Outlet,1
+196,485,APAC Hyatt Seoul SELRS,Bakery,Outlet,1
+197,486,APAC Hyatt Seoul SELRS,Terrace,Outlet,1
+198,493,APAC Hyatt Bangkok BANGH,Staff Canteen,Outlet,1
+199,492,APAC Hyatt Bangkok BANGH,Event,Outlet,1
+200,491,APAC Hyatt Bangkok BANGH,The Dining Room,Outlet,1
+201,434,BM Preskil,Rendez Vous,Outlet,1
+202,435,BM Lux,The Kitchen,Outlet,1
+203,436,BM Heritage,Savana,Outlet,1
+204,437,BM Beachcomber,Le Superbe,Outlet,1
+205,438,BM Mauritius Com Bank,La Passerelle,Outlet,1
+206,439,BM Constance Belle,Citronelle,Outlet,1
+207,453,Albert,Superlicious,Outlet,1
+208,450,RC Thibaud,Home,Outlet,1
+209,445,BM Chemtech,Wolmar,Outlet,1
+210,447,BM Tamarin,YE MAN,Outlet,1
+211,448,BM Belle,Beach Rouge,Outlet,1
+212,449,BM MCB,St Jean,Outlet,1
+213,455,CourtyardByMarriottBKK_copy,Momo Cafe,Outlet,1
+214,456,CourtyardByMarriottBKK_copy,Ex Lounge,Outlet,1
+215,457,CBOI_Retaj,Retaj Moroni,Outlet,1
+216,458,CBOI_Le Louvre,Le Saint Germain,Outlet,1
+217,459,CBOI_Le Marais,Le Marais,Outlet,1
+218,460,CBOI_Tartuffe,Le Clef,Outlet,1
+219,461,CBOI_Cotton,Cotton Bay,Outlet,1
+220,462,CBOI_Ambre,Ambre,Outlet,1
+221,463,CBOI_Ile Aux Cerfs,Ils Aux Cerfs,Outlet,1
+222,464,CBOI_Sugar,Sugar Beach,Outlet,1
+223,465,CBOI_Long Beach,Long Beach,Outlet,1
+224,466,CBOI_Constance Lemuria,Diva,Outlet,1
+225,467,CBOI_Le Fred,Rooftop,Outlet,1
+226,468,CBOI_Raffles,Losean,Outlet,1
+227,479,CBOI_Indigo,Yuzu,Outlet,1
+228,480,CBOI_Indigo,Brasserie Chic,Outlet,1
+229,471,CBOI_Bira,Bira Delice,Outlet,1
+230,472,CBOI_Coraya,Le Coraya,Outlet,1
+231,473,CBOI_Combava,Combava,Outlet,1
+232,474,CBOI_Trevani,Trevani,Outlet,1
+233,475,CBOI_Beauvallon,Beauvallon,Outlet,1
+234,476,CBOI_Centell,Centell,Outlet,1
+235,477,CBOI_Tamassa,Show,Outlet,1
+236,482,Mater Fondazione,Refettorio Geneva,Outlet,1
+237,481,UBC Food Service,Open Kitchen,Outlet,1
+238,483, Sebastien Laceti,ABCD,Outlet,1
+239,494,APAC Hyatt Guangzhou GUAGH,Commissary,Outlet,1
+240,495,APAC Hyatt Guangzhou GUAGH,Banquet,Outlet,1
+241,496,APAC Hyatt Guangzhou GUAGH,Market Cafe,Outlet,1
+242,497,APAC Hyatt Beijing BEIGH,Made For You,Outlet,1
+243,506,APAC Hyatt Jeju CJUGH,Garde Manger,Outlet,1
+244,499,APAC Hyatt Beijing BEIGH,Balcony,Outlet,1
+245,500,APAC Hyatt Solo SOCAL,Epice,Outlet,1
+246,501,APAC Hyatt Solo SOCAL,Banquet,Outlet,1
+247,502,APAC Hyatt Solo SOCAL,Agra,Outlet,1
+248,503,APAC Hyatt Wangjing NAYRW,Market Cafe,Outlet,1
+249,504,APAC Hyatt Wangjing NAYRW,Cang Yue,Outlet,1
+250,505,APAC Hyatt Wangjing NAYRW,Shunpachi,Outlet,1
+251,507,APAC Hyatt Jeju CJUGH,Butchery,Outlet,1
+252,508,APAC Hyatt Jeju CJUGH,Room Service,Outlet,1
