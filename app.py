@@ -11,7 +11,6 @@ from streamlit_option_menu import option_menu
 
 from waste_graph_functions import *
 from list_weekly_kpis import *
-from impact_report_metrics import *
 
 
 st.title('New test app')
