@@ -696,6 +696,10 @@ if selected == 'Impact Report':
 
 
 	################################### GETTING THE BASELINE START AND END DATES
+	
+	dataframe_comp = df_companies[df_companies['id_company']==focus_company]
+	baseline_start_test = dataframe_comp.loc[0]['baseline_start']
+	st.write(baseline_start_test)
 
 	df_baseline = fit_raw_data[fit_raw_data["id_company"].str.startswith(focus_company, na = False)].reset_index()
 	df_baseline = fit_raw_data[fit_raw_data["kitchen"].str.startswith(focus_kitchen, na = False)].reset_index()
