@@ -13,9 +13,6 @@ from waste_graph_functions import *
 from list_weekly_kpis import *
 
 
-st.title('New test app')
-
-
 header = st.container()
 waste_dataset = st.container()
 covers_dataset = st.container()
