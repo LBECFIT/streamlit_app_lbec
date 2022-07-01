@@ -698,8 +698,11 @@ if selected == 'Impact Report':
 	################################### GETTING THE BASELINE START AND END DATES
 	
 	dataframe_comp = df_companies[df_companies['id_company']==focus_company]
-	baseline_start_test = dataframe_comp.loc[0]['baseline_start']
-	st.write(baseline_start_test)
+	baseline_start = dataframe_comp.iloc[0]['baseline_start']
+	baseline_end = dataframe_comp.iloc[0]['baseline_start']
+	
+	baseline_start = datetime.strptime(baseline_start, '%Y-%m-%d')
+	baseline_end = datetime.strptime(baseline_end, '%Y-%m-%d')
 
 	df_baseline = fit_raw_data[fit_raw_data["id_company"].str.startswith(focus_company, na = False)].reset_index()
 	df_baseline = fit_raw_data[fit_raw_data["kitchen"].str.startswith(focus_kitchen, na = False)].reset_index()
@@ -707,11 +710,11 @@ if selected == 'Impact Report':
 	df_baseline['baseline_start'] = pd.to_datetime(df_baseline['baseline_start'], format='%Y-%m-%d').dt.floor('d')
 	df_baseline['baseline_end'] = pd.to_datetime(df_baseline['baseline_end'], format='%Y-%m-%d').dt.floor('d')
 
-	baseline_start = df_baseline.loc[0]['baseline_start']
-	baseline_end = df_baseline.loc[0]['baseline_end']
+	#baseline_start = df_baseline.loc[0]['baseline_start']
+	#baseline_end = df_baseline.loc[0]['baseline_end']
 	
-	if starting_date!= baseline_start:
-		st.write("your starting date for data collection doesn't match your baseline start date, are you sure about your date selection ?")
+	#if starting_date!= baseline_start:
+#		st.write("your starting date for data collection doesn't match your baseline start date, are you sure about your date selection ?")
 		
 
 	list_baseline = [(baseline_end - timedelta(days=x)).strftime("%Y-%m-%d") for x in range(((baseline_end-baseline_start).days)+1)]
