@@ -53,8 +53,6 @@ with st.sidebar:
 
 		with inactive_dataset:
 
-			st.title('Hello AK')
-
 			headerColor = 'royalblue'
 			rowEvenColor = 'paleturquoise'
 			rowOddColor = 'white'
