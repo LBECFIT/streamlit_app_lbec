@@ -871,8 +871,6 @@ if selected == 'Impact Report':
 	base = base[(base['id_company+kitchen'] == company)].reset_index()
 	#baseline_end = base.loc[0]['baseline_end']
 	coef = base.loc[0]['cost_kilo']
-	st.dataframe(base.head())
-	st.write(company)
 	baseline_end = baseline_end.strftime("%Y-%m-%d")
 	baseline_end = datetime.strptime(baseline_end,'%Y-%m-%d')
 	kg_saved = kg_saved[(kg_saved['date_waste'] > baseline_end)]
