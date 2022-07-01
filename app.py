@@ -50,10 +50,10 @@ with st.sidebar:
 
 	if selected == 'Weekly KPIs':
 		
-		st.title('Hello AK')
 
 		with inactive_dataset:
 
+			st.title('Hello AK')
 
 			headerColor = 'royalblue'
 			rowEvenColor = 'paleturquoise'
