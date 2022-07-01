@@ -713,8 +713,8 @@ if selected == 'Impact Report':
 	#baseline_start = df_baseline.loc[0]['baseline_start']
 	#baseline_end = df_baseline.loc[0]['baseline_end']
 	
-	#if starting_date!= baseline_start:
-#		st.write("your starting date for data collection doesn't match your baseline start date, are you sure about your date selection ?")
+	if starting_date!= baseline_start:
+		st.write("your starting date for data collection doesn't match your baseline start date, are you sure about your date selection ?")
 		
 
 	list_baseline = [(baseline_end - timedelta(days=x)).strftime("%Y-%m-%d") for x in range(((baseline_end-baseline_start).days)+1)]
