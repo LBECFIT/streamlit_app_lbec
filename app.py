@@ -869,11 +869,10 @@ if selected == 'Impact Report':
 	kg_saved = df_new.copy()
 	base = df_baseline.copy()
 	base = base[(base['id_company+kitchen'] == company)].reset_index()
-	baseline_end = base.loc[0]['baseline_end']
+	#baseline_end = base.loc[0]['baseline_end']
 	coef = base.loc[0]['cost_kilo']
 	baseline_end = baseline_end.strftime("%Y-%m-%d")
 	baseline_end = datetime.strptime(baseline_end,'%Y-%m-%d')
-	print(baseline_end)
 	kg_saved = kg_saved[(kg_saved['date_waste'] > baseline_end)]
 	################# ENTER BELOW THE END DATE 
 	kg_saved = kg_saved[(kg_saved['date_waste'] <= end_date.strftime("%Y-%m-%d"))]
