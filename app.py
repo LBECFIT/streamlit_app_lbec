@@ -704,8 +704,8 @@ if selected == 'Impact Report':
 	baseline_start = datetime.strptime(baseline_start, '%Y-%m-%d')
 	baseline_end = datetime.strptime(baseline_end, '%Y-%m-%d')
 
-	df_baseline = fit_raw_data[fit_raw_data["id_company"].str.startswith(focus_company, na = False)].reset_index()
-	df_baseline = fit_raw_data[fit_raw_data["kitchen"].str.startswith(focus_kitchen, na = False)].reset_index()
+	df_baseline = fit_raw_data[(fit_raw_data["id_company"]==focus_company)&(fit_raw_data["kitchen"]==focus_kitchen)]
+	#df_baseline = fit_raw_data[fit_raw_data["kitchen"].str.startswith(focus_kitchen, na = False)].reset_index()
 
 	df_baseline['baseline_start'] = pd.to_datetime(df_baseline['baseline_start'], format='%Y-%m-%d').dt.floor('d')
 	df_baseline['baseline_end'] = pd.to_datetime(df_baseline['baseline_end'], format='%Y-%m-%d').dt.floor('d')
