@@ -713,7 +713,7 @@ if selected == 'Impact Report':
 	#baseline_start = df_baseline.loc[0]['baseline_start']
 	#baseline_end = df_baseline.loc[0]['baseline_end']
 	
-	if starting_date!= baseline_start:
+	if starting_date.strftime("%Y-%m-%d")!= baseline_start.strftime("%Y-%m-%d"):
 		st.markdown('<p style="font-family:Courier; color:Red; font-size: 15px;">your starting date for data collection does not match your baseline start date, are you sure about your date selection ?</p>',unsafe_allow_html=True)
 
 
