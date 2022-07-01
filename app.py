@@ -689,6 +689,9 @@ if selected == 'Impact Report':
 
 	with col_dates_1:
 		starting_date = st.date_input("Select start date for data collection",date(2022, 6, 6))
+	
+	st.markdown('<p style="font-family:Courier; color:Black; font-size: 13px;">Usually, the start date of the data collection is the first day of the baseline.</p>',unsafe_allow_html=True)
+
 
 
 
