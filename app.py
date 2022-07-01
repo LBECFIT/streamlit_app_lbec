@@ -830,9 +830,9 @@ if selected == 'Impact Report':
 	    waste_byday = df.copy()
 	    base = df_baseline.copy()
 	    base = base[(base['id_company+kitchen'] == company)].reset_index()
-	    baseline_end = base.loc[0]['baseline_end']
-	    baseline_end = baseline_end.strftime("%Y-%m-%d")
-	    baseline_end = datetime.strptime(baseline_end,'%Y-%m-%d')
+	    #baseline_end = base.loc[0]['baseline_end']
+	    #baseline_end = baseline_end.strftime("%Y-%m-%d")
+	    #baseline_end = datetime.strptime(baseline_end,'%Y-%m-%d')
 	    waste_byday['date_waste'] = pd.to_datetime(waste_byday['date_waste'], format='%Y-%m-%d').dt.floor('d')
 	    waste_byday = waste_byday[(waste_byday['date_waste'] > baseline_end )&(waste_byday['id_company+kitchen'] == company)&(waste_byday['date_waste'] <= end_date.strftime('%Y-%m-%d'))]
 	    waste_byday['weight'] = waste_byday['weight'].astype(float)
